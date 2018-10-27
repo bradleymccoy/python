@@ -1,0 +1,20 @@
+Instructions for setting up Django virtual environments for apps on your computer 
+	Use comands: 
+	1. pip install virtualenv
+	2. virtualenv myvirtualenv/random_wod  		(This setsup your new virtualenv)(where random_wod is present would be the name of the project/environment you want to create. Using random_wod because it is what I am creating for the first one)
+	3. myvirtualenv\random_wod\Scripts\activate   (this puts you into the environment and shoupld cause the name of the project to be before the cmd prompt line) (ex. <random_wod> C:\Users\sc97960>) (to deactivate use same prompt but change for word deactivate instead of activate)
+	
+	in new environment install packages you will need for project 
+	4. pip install django==1.9.5
+	5. type pip freeze (this should cause cmd to return the version of django you just installed)
+	6. mkdir myproject (mkdir is creating a folder in the user directory, myproject is what you named the folder you created)
+	7. cd myproject/   (this opens the folder you just created)
+	8. django-admin startproject random_wod (this is the syntax to start a new project. django-admin , startproject(instructions on what to do as admin), name of project you want to start)
+	
+	
+	To Start a server from here 
+	9. cd random_wod/   (go to project folder by calling cd project name)
+	10. python manage.py runserver (you will get a msg telling you that it has started a server for you and it will give you the local host to type into a browser to check it. loacl host is always http://127.0.0.1:8000/ or localhost:8000  (fyi 8000 is the port number))
+	
+	To initalize Git and upload the application to heroku 
+	11. get init (this should initalize an empty Git repository and give you the folder location of it)

@@ -1,0 +1,46 @@
+WOD Generator App Requirements 
+
+WebDevelopment Tools For Django
+For Django:
+	Django REST Framework(use the Rest Framework. Looks like it will be better in the long run vs using TastyPie) or TastyPie(tastyPie is a webservice api framework for django)
+	Celery for backgroud processing
+	Nginx as your default server
+	PostgreSQL as your default database
+
+Development:
+Create Random Generator for picking 
+	1.number of movements
+	2.which movements
+	3.scoring structure (amrap,for time,for reps,for weight,chipper) - scoring structure needs to have 
+	4.rep scheme
+	5.time gen for (amrap,reps) 
+	6.
+
+Create Random Hero Generator
+	1. put in all heros names and stories
+	2. workout
+	
+Create Random Girl Generator
+	1. put in all girls with workouts
+	2. create generator options for double girl or heavy girl
+	3. roll the dice and create generator options for 2 random girls
+	
+Build out Movements Dframe 
+	Columns:
+		1. Movement name
+		2. anabolic rating 
+		3. aerobic rating
+		4. upper body booleon 
+		5. lower body booleon
+		6. Olympic Lift booleon
+		7. Gymnastics movement booleon
+		8. Heavy/Light scale
+		
+Add Timmers 
+	1. stopwatch count up
+	2. stopwatch count down
+	3. Tabata
+	4. EMOM stopwatch with beep for 3 seconds before next min begins
+		- All timmers need to have a destinct start sound and a different sound for completing 
+
+		
